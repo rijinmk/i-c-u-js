@@ -1,3 +1,41 @@
+html, body{
+    height:100%;
+}
+
 span{
     display: block;
+}
+
+.face{
+    /* border:1px solid red; */
+    width:500px;
+    height:500px;
+    position: absolute; 
+    top:50%;
+    left:50%;
+    margin-left:-250px;
+    margin-top:-250px;
+    border-radius:50%; 
+    display:flex;
+    background:rgba(255, 229, 180, 1);
+}
+
+.outer-eye{
+    background:white;
+    border:1px solid #ccc;
+    width:50%;
+    height:100px;
+    border-radius:50%;
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-eye{
+    width:50px;
+    height:50px;
+    background: #000;
+    border-radius:50%;
+    transition:transfrom 0.2s;
 }
