@@ -6,8 +6,8 @@ span{
     display: block;
 }
 
-.face{
-    /* border:1px solid red; */
+/* Face and Eye */
+/* .face{
     width:300px;
     height:300px;
     position: absolute; 
@@ -38,4 +38,24 @@ span{
     background: #000;
     border-radius:50%;
     transition:transfrom 0.2s;
+} */
+
+/* Shadows */
+body{
+    background-color: #e0e0e0;
+}
+
+.neo{
+    width:300px;
+    height:300px;
+    position: absolute; 
+    top:50%;
+    left:50%;
+    margin-left:-150px;
+    margin-top:-150px;
+
+    transition: all 0.2s;
+    border-radius: 45px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  23px 23px 46px #aaaaaa, -23px -23px 46px #ffffff;
 }
