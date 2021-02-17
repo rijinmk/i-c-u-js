@@ -11,5 +11,5 @@ function handleOrientation(event) {
     document.getElementsByClassName('beta')[0].innerHTML = beta;
     document.getElementsByClassName('gamma')[0].innerHTML = gamma;
   
-    $('.inner-eye').css('translate', `0 -${beta/5}`);
+    $('.inner-eye').css('transform', `translate(0 -${beta/5}px)`);
 }
