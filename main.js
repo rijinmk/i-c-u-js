@@ -11,5 +11,5 @@ function handleOrientation(event) {
     document.getElementsByClassName('beta')[0].innerHTML = beta;
     document.getElementsByClassName('gamma')[0].innerHTML = gamma;
   
-    $('.neo').css('box-shadow', `${23+beta}px ${23+gamma}px 46px #aaaaaa, -23px -23px 46px #ffffff`);
+    $('.neo').css('box-shadow', `${23+gamma}px ${23+beta}px 46px #aaaaaa, -23px -23px 46px #ffffff`);
 }

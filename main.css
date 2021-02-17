@@ -46,13 +46,13 @@ body{
 }
 
 .neo{
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     position: absolute; 
     top:50%;
     left:50%;
-    margin-left:-150px;
-    margin-top:-150px;
+    margin-left:-100px;
+    margin-top:-100px;
 
     transition: all 0.2s;
     border-radius: 45px;
